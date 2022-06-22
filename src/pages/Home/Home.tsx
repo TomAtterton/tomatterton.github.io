@@ -1,25 +1,19 @@
-import React from 'react'
-import {FaGithub, FaLinkedin} from "react-icons/fa";
+import { Text, View } from "react-native";
+import { StatusBar } from "expo-status-bar";
+import styles from "./home.style";
 
+interface Props {}
 
+const Home = ({}: Props) => {
+  return (
+    <View style={styles.container}>
+      <View style={styles.contentContainer}>
+        <Text style={styles.title}>Tom Atterton</Text>
+        <Text style={styles.description}>Mobile Developer</Text>
+      </View>
+      <StatusBar style="auto" />
+    </View>
+  );
+};
 
-const Home = ({name = 'Tom Atterton', jobTitle = 'Mobile Developer'}) =>
-	<div className='container'>
-		<div className='content'>
-		<span className='name'>{name}</span>
-		<span className='jobTitle'>{jobTitle}</span>
-		<>
-			<div className="socialLinks">
-				<a className='socialLink' href={"https://github.com/TomAtterton"} target="_blank" rel="noreferrer">
-					<FaGithub/>
-				</a>
-				<a className='socialLink' href={"https://www.linkedin.com/in/tom-atterton-48a84274/"} target="_blank" rel="noreferrer">
-					<FaLinkedin/>
-				</a>
-			</div>
-		</>
-		</div>
-	</div>
-
-
-export default Home
+export default Home;
