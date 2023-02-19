@@ -1,23 +1,19 @@
 {
   "files": {
-    "app.js": "/static/js/app.b1590120.chunk.js",
-    "app.js.map": "/static/js/app.b1590120.chunk.js.map",
-    "runtime~app.js": "/static/js/runtime~app.2e9f1821.js",
-    "runtime~app.js.map": "/static/js/runtime~app.2e9f1821.js.map",
-    "static/js/2.4d296a00.chunk.js": "/static/js/2.4d296a00.chunk.js",
-    "static/js/2.4d296a00.chunk.js.map": "/static/js/2.4d296a00.chunk.js.map",
-    "fonts/Entypo.ttf": "/./fonts/Entypo.ttf",
-    "favicon-16.png": "/favicon-16.png",
-    "favicon-32.png": "/favicon-32.png",
+    "main.js": "/static/js/main.b1ef5dd8.js",
+    "static/js/514.c44895de.js": "/static/js/514.c44895de.js",
+    "static/media/Entypo.ttf": "/static/media/Entypo.fc6169344c041cffcdae.ttf",
     "favicon.ico": "/favicon.ico",
     "index.html": "/index.html",
+    "favicon-32.png": "/favicon-32.png",
+    "favicon-16.png": "/favicon-16.png",
     "manifest.json": "/manifest.json",
     "serve.json": "/serve.json",
-    "static/js/2.4d296a00.chunk.js.LICENSE.txt": "/static/js/2.4d296a00.chunk.js.LICENSE.txt"
+    "main.b1ef5dd8.js.map": "/static/js/main.b1ef5dd8.js.map",
+    "514.c44895de.js.map": "/static/js/514.c44895de.js.map"
   },
   "entrypoints": [
-    "static/js/runtime~app.2e9f1821.js",
-    "static/js/2.4d296a00.chunk.js",
-    "static/js/app.b1590120.chunk.js"
+    "static/js/514.c44895de.js",
+    "static/js/main.b1ef5dd8.js"
   ]
 }
