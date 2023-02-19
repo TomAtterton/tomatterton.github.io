@@ -11,7 +11,7 @@ const Home = () => {
         <Text style={styles.title}>Tom Atterton</Text>
         <Text style={styles.description}>
           {
-            "Software Engineering Consultant\n Currently focusing on Mobile development with React-Native."
+            "\nPassionate Software Developer currently focusing on mobile development specializing in React Native.\n\n Check out my socials below!"
           }
         </Text>
       </View>
@@ -23,9 +23,7 @@ const Home = () => {
       </View>
       <View style={styles.footerContainer}>
         <Text style={styles.footerText}>
-          {
-            "© 2022 Tom Atterton - All rights reserved. Hosted on GitHub, created with React-Native-Web."
-          }
+          {"© 2023 Tom Atterton - All rights reserved. Hosted on GitHub."}
         </Text>
       </View>
     </View>
