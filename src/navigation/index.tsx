@@ -9,7 +9,18 @@ export type RootStackParamList = {
     [Routes.AboutMe]: undefined;
 };
 
+export const linking = {
+    prefixes: ['https://tomatterton.com', 'tomatterton://', 'tomatterton.com'],
+    config: {
+        screens:{
+            [Routes.Home]:'home',
+            [Routes.AboutMe]:'about-me',
+        }
+    },
+};
+
 const Stack = createNativeStackNavigator<RootStackParamList>();
+
 const RouteNavigation = () => <Stack.Navigator
     screenOptions={{
         headerShown: false
