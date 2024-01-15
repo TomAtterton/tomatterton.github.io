@@ -4,25 +4,18 @@ import styles from "./home.style";
 import SocialButton from "../../components/SocialButton";
 import {socialData} from "../../config/data";
 import ParticalBackground from "../../components/ParticalBackground";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 
 
 const Home = () => {
-
-
     return (<View style={styles.container}>
             <ParticalBackground/>
-            <View style={styles.headerContainer}>
-                <Pressable
-                    onPress={() => {
-                    }}>
-                    <Text style={styles.headerText}>Projects</Text>
-                </Pressable>
-            </View>
             <View style={styles.contentContainer}>
                 <Text style={styles.title}>Tom Atterton</Text>
                 <Text style={styles.description}>
                     {
-                        "\nPassionate Software Developer currently focusing on mobile development specializing in React Native.\n\n Check out my socials below!"
+                        "\nPassionate Software Developer currently focusing on mobile development specializing in React Native"
                     }
                 </Text>
             </View>
@@ -32,11 +25,8 @@ const Home = () => {
                     <SocialButton type={type} url={url}/>
                 ))}
             </View>
-            <View style={styles.footerContainer}>
-                <Text style={styles.footerText}>
-                    {"© 2024 Tom Atterton - All rights reserved. Hosted on GitHub."}
-                </Text>
-            </View>
+            <Footer/>
+            <Header/>
         </View>
     );
 };
